@@ -1,0 +1,72 @@
+/* Footer.css */
+.footer {
+  background-color: #1a2e6b;
+  border-top: 4px solid #c08b5c;
+  padding: 60px 10% 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.footer-title {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.footer-title span {
+  color: #c08b5c;
+}
+
+.footer-description {
+  max-width: 420px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #d8cfc4;
+}
+
+.footer-icons {
+  display: flex;
+  flex-direction: column;
+  /* 👈 Makes vertical */
+  gap: 12px;
+}
+
+.footer-icons a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.footer-icons a:hover {
+  color: #60a5fa;
+  transform: translateX(5px);
+}
+
+.footer-divider {
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 40px 0 24px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #cfc5bb;
+}
+
+.footer-bottom span {
+  color: #c08b5c;
+}

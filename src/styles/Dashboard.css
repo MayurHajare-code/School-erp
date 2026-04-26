@@ -1,0 +1,88 @@
+/* .dashboard-container {
+  padding: 25px;
+  background: #f5f6fa;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.grid-6 {
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+}
+
+.grid-2 {
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 18px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+.summary-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary-card h3 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.summary-card p {
+  margin: 0;
+  color: gray;
+  font-size: 14px;
+}
+
+.icon {
+  font-size: 26px;
+  color: #2563eb;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.status-low {
+  color: red;
+  font-weight: 600;
+}
+
+.status-pending {
+  color: orange;
+}
+
+.status-approved {
+  color: green;
+}
+
+.chart-container {
+  height: 300px;
+} */
