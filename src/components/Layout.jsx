@@ -1,9 +1,9 @@
 import { Outlet } from "react-router-dom";
-import "../styles/layout.css"; //changing css file name
 import Sidebar from "./Sidebar";
 import Navbar from "./Navbar";
 import { useState } from "react";
 import Footer from "./Footer";
+import "../styles/layout.css";
 
 const Layout = () => {
   const [collapsed, setCollapsed] = useState(false);
